@@ -10,6 +10,8 @@ var
 
 var version = 1.01;
 
+console.log("Trying to start it up?");
+
 server.listen(gameport);//gameport);//, 'stick-battle.com');
 
 console.log('\t Listening on port: ' + gameport );
