@@ -63,17 +63,55 @@ h1 {
     display: inline-block;
     position: relative;
 }
+
+h2 {
+    margin-top: 1em;
+    font-size: 0.9em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.email_input_group {
+    margin-top: 0.5em;
+    background-color: #ecf0f1;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    height: 1.4em;
+    width: 20em;
+}
+
+#mce-EMAIL {
+    border: 0;
+    border-radius: 4px 0 0 4px;
+    width: 70%;
+    height: 100%;
+}
+
+.button {
+    border: 0;
+    border-radius: 0 4px 4px 0;
+    background-color: #3498db;
+    color: white;
+    width: 10%;
+    height: 100%;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
 #redLine {
     display: inline-block;
     background-color: #e74c3c;
-    width: .2em;
-    height: 20%;
+    height: .2em;
+    width: 20%;
     vertical-align: middle;
+    margin-top: 1em;
 }
 #blueLine {
     display: inline-block;
-    width: .2em;
-    height: 20%;
+    height: .2em;
+    width: 20%;
     background-color: #3498db;
     vertical-align: middle;
+    margin-top: 1em;
 }
