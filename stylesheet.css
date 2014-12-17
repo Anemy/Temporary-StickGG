@@ -86,6 +86,18 @@ h2 {
     height: 100%;
 }
 
+.response {
+	text-align: center;
+	position: relative;
+}
+
+#mce-responses {
+	text-align: center;
+	width: 50%;
+	margin-top: 0.5em;
+	margin-left: 25%;
+}
+
 .button {
     border: 0;
     border-radius: 0 4px 4px 0;
